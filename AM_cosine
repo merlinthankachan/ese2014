@@ -10,7 +10,7 @@ dt = 0.00001;
  a=2*cos(2*pi*1000*t);
  c=5* cos(2*pi*10000*t);
  output = (2+0.5*a).*c;
- subplot(3,1,1); plot(t,a); xlabel('t'); ylabel('input signal'); 
- subplot(3,1,2); plot(t,c); xlabel('t'); ylabel('carrier signal'); 
+ subplot(3,1,1); plot(t,a); xlabel('time'); ylabel('input signal'); 
+ subplot(3,1,2); plot(t,c); xlabel('time'); ylabel('carrier signal'); 
  subplot(3,1,3); plot(t,output); xlabel('t'); ylabel('output signal');
 
