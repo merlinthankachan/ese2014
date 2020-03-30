@@ -1,1 +1,25 @@
+p=input("enter the first prime number\n")
+q=input("enter the second prime number\n")
+x=input('the message to be sent  ','s')
+n=p*q
+fi=(p-1)*(q-1)
+i=0;
+while i<fi
+  if(gcd(fi,i)==1)
+  e=i
+  break
+else 
+  i=i+1;
+  endif
+endwhile
+i=1;
+for i=1:fi
+k=(fi*i)+1;
+if(mod(k,e)==0)
+break;
+endif
+endfor
+d=round(k/e)
+printf("The public is (%d,%d)\n",n,d)
+printf("The private key is (%d,%d)\n",n,e)
 
