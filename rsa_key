@@ -1,4 +1,4 @@
-// Encryption decryption with rsa//
+// Encryption and decryption with rsa//
 ***********************************
 
 p=input("enter the first prime number\n")
