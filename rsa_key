@@ -36,7 +36,7 @@ printf("\n Decrypted message: \n")
 printf("%d \t",m1);
 printf("\n");
 binary = reshape(dec2bin(m1, 8).'-'0',1,[]);
-str = char(bin2dec(reshape(char(binary+'0'), 8,[]).'));
+string = char(bin2dec(reshape(char(binary+'0'), 8,[]).'));
 printf("message received is\n");
-disp(str)
+disp(string)
 
