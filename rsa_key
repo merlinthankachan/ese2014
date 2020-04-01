@@ -25,4 +25,18 @@ endfor
 d=round(k/e)
 printf("The public is (%d,%d)\n",n,d)
 printf("The private key is (%d,%d)\n",n,e)
+c1=double(x);
+c=power(c1,e);
+c=mod(c,n);
+printf("Encrypted message:\n")
+printf(" %d \t",c);
+m1=power(c,d);
+m1=mod(m1,n);
+printf("\n Decrypted message: \n")
+printf("%d \t",m1);
+printf("\n");
+binary = reshape(dec2bin(m1, 8).'-'0',1,[]);
+str = char(bin2dec(reshape(char(binary+'0'), 8,[]).'));
+printf("message received is\n");
+disp(str)
 
