@@ -1,5 +1,5 @@
 // Encryption and decryption with rsa//
-*****************************************
+****************************************
 
 p=input("enter the first prime number\n")
 q=input("enter the second prime number\n")
