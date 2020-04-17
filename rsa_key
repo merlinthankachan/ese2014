@@ -3,7 +3,7 @@
 
 p=input("Enter the first prime number\n")
 q=input("Enter the second prime number\n")
-x=input('the message to be sent  ','s')
+x=input('The message to be sent  ','s')
 n=p*q
 fi=(p-1)*(q-1)
 i=0;
