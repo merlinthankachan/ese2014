@@ -23,7 +23,7 @@ break;
 endif
 endfor
 d=round(k/e)
-printf("The public is (%d,%d)\n",n,d)
+printf("The public key is (%d,%d)\n",n,d)
 printf("The private key is (%d,%d)\n",n,e)
 c1=double(x);
 c=power(c1,e);
